@@ -1,0 +1,43 @@
+name: flutter_application_3
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.10.0
+  cloud_firestore: ^5.6.2
+  firebase_auth: ^5.4.1
+  provider: ^6.1.2
+  google_maps_flutter: ^2.10.0
+  geolocator: ^11.0.0
+  geocoding: ^2.1.0
+  http: ^0.13.6
+  flutter_native_splash: ^2.4.4
+  shared_preferences: ^2.5.2
+  timezone: ^0.9.4
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  table_calendar: ^3.0.9
+  flutter_lints: ^5.0.0
+  youtube_player_flutter: ^9.1.1
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/backgrounds/theme1.jpg
+    - assets/images/backgrounds/theme2.jpg
+  # assets: -assets\bedside-clock-alarm-95792.mp3
